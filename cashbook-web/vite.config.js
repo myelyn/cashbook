@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { createStyleImportPlugin } from 'vite-plugin-style-import'
 import path from 'path'
 export default defineConfig({
+  base: './',
   plugins: [
     react(),
     createStyleImportPlugin(
