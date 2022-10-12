@@ -131,7 +131,6 @@ class userController extends Controller {
     const { decodeUser } = ctx
     const { signature, avatar } = ctx.request.body
 
-    console.log(decodeUser)
     const userInfo = await ctx.service.user.getUserByName(decodeUser.username)
     if (!userInfo) {
       ctx.body = {
