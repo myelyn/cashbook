@@ -9,15 +9,15 @@ const routes = [
     component: Index
   },
   {
-    path: "/data",
+    path: "data",
     component: Data
   },
   {
-    path: "/user",
+    path: "user",
     component: User
   },
   {
-    path: "/login",
+    path: "login",
     component: Login
   }
 ]
